@@ -46,7 +46,7 @@ interface Product {
 // Menggunakan interface pada objek
 const product: Product = {
   id: 1,
-  name: "Laptop",
+  name: "Lenovo Laptop",
   price: 888,
   showDetails() {
     console.log(`Product: ${this.name}, Price: $${this.price}`);
