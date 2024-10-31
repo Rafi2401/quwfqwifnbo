@@ -11,7 +11,7 @@ function createUser(id: number, name: string, email: string): User {
 }
 
 // 3. Contoh penggunaan fungsi
-const newUser: User = createUser(1, "Rafi Galih", "rafikerja2401@gmail.com");
+const newUser: User = createUser(1, "Mukhamad Rafi Galih Saputro", "rafikerja2401@gmail.com");
 console.log(newUser);
 
 class Person {
@@ -33,7 +33,7 @@ class Person {
 }
 
 // Membuat instance baru dari class Person
-const person1 = new Person("Rafi", 20);
+const person1 = new Person("Rafi", 24);
 person1.greet(); // Output: Hello, my name is Rafi and I am 20 years old.
 
 interface Product {
@@ -47,7 +47,7 @@ interface Product {
 const product: Product = {
   id: 1,
   name: "Laptop",
-  price: 5000,
+  price: 888,
   showDetails() {
     console.log(`Product: ${this.name}, Price: $${this.price}`);
   },
